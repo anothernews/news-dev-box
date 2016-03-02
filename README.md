@@ -45,7 +45,7 @@ vagrant$ rails s -b 0.0.0.0
 
 Host 에서 `http://192.168.20.16:3000/` 로 접속하면 초기화면이 나타납니다.
 
-**Vagrant 명경어**
+**Vagrant 명령어**
 ```{bash}
 # Host
 
