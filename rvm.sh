@@ -1,7 +1,7 @@
 #! /bin/bash
 
 echo 'source /vagrant/.promptcolor' >>~/.bashrc
-echo 'JAVA_HOME=/usr/lib/jvm/default-java' >>~/.bashrc
+echo 'export JAVA_HOME=/usr/lib/jvm/default-java' >>~/.bashrc
 
 echo "install rvm"
 curl -sSL https://get.rvm.io | bash  >/dev/null 2>&1
