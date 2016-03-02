@@ -44,3 +44,17 @@ vagrant$ rails s -b 0.0.0.0
 ```
 
 Host 에서 `http://192.168.20.16:3000/` 로 접속하면 초기화면이 나타납니다.
+
+**Vagrant 명경어**
+```{bash}
+# Host
+
+$ vagrant up # vagrant를 시작합니다. 최초 실행시 환경설정도 구동합니다.(리눅스 박스를 설치합니다.)
+
+$ vagrant ssh # vagrant 터미널로 접속합니다.
+
+$ vagrant halt # vagrant를 종료합니다. (리눅스 박스 shutdown)
+
+$ vagrant destroy # 해당 박스를 삭제합니다. vagrant halt 후 사용
+
+```
